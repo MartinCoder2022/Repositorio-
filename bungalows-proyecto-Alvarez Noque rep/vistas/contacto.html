@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--lINK CSS-->
+    <link rel="stylesheet" href="../estilos/base.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="../imagenes/icono.ico">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>        
+    <header class="header__atractivos">        
+        <div class="contenedor__atractivos">
+            <h1 class="primer_titulo">Bungalows del Viejo Camino </h1>
+        
+        <!--navegacion-->
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./bungalows.html">Bungalows</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./elcomplejo.html">El Complejo</a></li>
+                <li><a href="./atractivos.html">Atractivos</a></li>
+                <li><a href="./ubicacion.html">Ubicacion</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>  
+        </nav>    
+        </div>                      
+    </header>
+
+    <main>
+        <section>                        
+            <article class="bienvenidos">
+                <h2>Bienvenidos</h2>
+                <p>El complejo se encuenta ubicado en la hermosa ciudad de Colón, provincia de Entre Ríos, <br>
+                    ciudad ubicada a 330 km. de la provincia de Buenos Aires. Estamos ubicados muy cerca a <br> 
+                    la entrada de de la ciudad.
+            </article>
+        </section>
+            
+        <section class="formulario">
+            <div class="formulario__contenedor">
+                <form class="form" action="/formulario" method="get" enctype="text/plain">
+                <div>
+                    <label for="Nombre">Nombre</label>
+                    <input class="formulario__casilleros" type="text" name="nombre" id="Nombre" placeholder="Introduzca su nombre">
+                </div>
+                <div> 
+                    <label for="e-mail">e-mail </label>
+                    <input class="formulario__casilleros" type="e-mail" name="e-mail" id="e-mail" placeholder="Solo e-mail" required>
+                </div> 
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input class="formulario__casilleros" type="number" name="telefono" id="telefono" placeholder="Ingrese su numero de telefono">
+                </div>
+                <div>
+                    <label for="condition">Terminos y Condiciones</label>
+                    <input type="checkbox" name="campoConditions" id="condition" required>                                       
+                </div>
+                
+                <div> 
+                    <label for="Comentarios">Comentarios</label><br>
+                    <textarea class="comentarios__text" name="comentarios" id="Comentarios" cols="50" rows="10" placeholder="Ingrese comentarios y/o dudas"></textarea>
+                </div>
+                
+                <div>
+                    <input class="btn" type="submit" value="ENVIAR">
+                    <input class="btn" type="reset" value="BORRAR DATOS"> 
+                </div>
+             </form> 
+            </div>
+            <div class="formulario__contenedor_ubicacion">
+                <div class="ubicacion">
+                    <p> <!-- con "_blanc" abre en una pestaña nueva-->
+                        <span> Nuestra Ubicacion</span>
+                        <a href="https://www.google.com.mx/maps/dir/Piamonte+590,+Col%C3%B3n,+Entre+R%C3%ADos,+Argentina//@-32.2227931,-58.1634962,16.75z/data=!4m9!4m8!1m5!1m1!1s0x95ae32f3ec7c583d:0xe7891f450360123d!2m2!1d-58.1615124!2d-32.2230203!1m0!3e0" target="_BLANC" >VER MAPA</a>
+                    </p> 
+                
+                    <p>Coordenadas GPS: S 32º 13' 24.0'' O 58º 09' 42.0"</p>
+                </div>
+            
+            </div>
+            <div class="formulario__contenedor_texto">
+                <div class="contacto_texto">
+                    <p>                      
+                     
+                    <p>Contactenos!
+                        Bunagalows Del Viejo Camino, 
+                        Piamonte 590
+                        Colón- Entre Ríos, 
+                        
+                        Teléfonos:
+                        011-4740-1491
+                        WhatsApp: +54 9 11 5651-7211 
+                        <p>@bungalowsdelviejocamino
+                        </p>
+                        <p>silviadego@gmail.com
+                        </p> 
+                    </p>
+                </div>
+            
+            </div>
+        </section>
+
+    
+    </main>
+
+    <footer>  
+        <nav class="footer">                          
+            <h3>Métodos de Contacto</h3>
+            <ul class="menu__footer">            
+                <li>Whatssapp</li>
+                <li>Instagram</li>
+                <li>Facebook</li>            
+            </ul>               
+            <hr>
+            <p>Seguinos en Nuestras <b>redes</b> </p> <!-- iconos de https://fontawesome.com/-->
+            <i class="fab fa-whatsapp"></i> <i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> 
+            <p>Teléfono <b>011-474114911</b> </p> <!--hipervinculo mailto:-->
+            <a href="mailto:bungalows@bungalows.com">Contáctenos por mail</a>
+                <p>Copy Right - Todos Los derechos reservados</p>
+            </nav>            
+    </footer>
+
+</body>
+</html>
