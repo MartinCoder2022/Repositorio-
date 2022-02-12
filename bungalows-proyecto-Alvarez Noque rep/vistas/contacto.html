@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +49,9 @@
             
         <section class="formulario">
             <div class="formulario__contenedor">
-                <form class="form" action="/formulario" method="get" enctype="text/plain">
+                <form data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" class="form" action="/formulario" method="get" enctype="text/plain">
                 <div>
                     <label for="Nombre">Nombre</label>
                     <input class="formulario__casilleros" type="text" name="nombre" id="Nombre" placeholder="Introduzca su nombre">
@@ -128,6 +132,9 @@
                 <p>Copy Right - Todos Los derechos reservados</p>
             </nav>            
     </footer>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>

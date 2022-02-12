@@ -589,10 +589,10 @@ tr:hover{
    
 }
 
-
+/* con gradientes*/
 .formulario {
 
-    background-color: c0dcdc;
+    /*background-color: c0dcdc;*/
     display: grid;
     justify-content: center;
     padding: 20px;
@@ -600,10 +600,14 @@ tr:hover{
     font-size: 1.4rem;
     flex-wrap: wrap;
     align-items: center;
-    gap: 10px;
- 
+    gap: 10px; 
     width: 100%;
-}
+    background: rgb(58,142,180);
+    background: -moz-linear-gradient(90deg, rgba(58,142,180,1) 0%, rgba(5,33,33,0.6727065826330532) 0%, rgba(29,253,198,0.989233193277311) 52%);
+    background: -webkit-linear-gradient(90deg, rgba(58,142,180,1) 0%, rgba(5,33,33,0.6727065826330532) 0%, rgba(29,253,198,0.989233193277311) 52%);
+    background: linear-gradient(90deg, rgba(58,142,180,1) 0%, rgba(5,33,33,0.6727065826330532) 0%, rgba(29,253,198,0.989233193277311) 52%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a8eb4",endColorstr="#1dfdc6",GradientType=1);
+      }
 
 .form{
     width: 100%;
